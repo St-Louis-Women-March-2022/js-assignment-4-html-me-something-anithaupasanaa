@@ -1,1 +1,103 @@
 /* Write your CSS here! */
+img {
+    border-radius: 10%;
+  }
+  
+  
+  body {
+    color: #000000;
+    background-color: peachpuff;
+    background-image: url(./Images/back.jpg);
+    background-repeat: repeat;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 50px 0px 50px;
+  }
+  
+  p {
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 50px 0px 50px;
+  }
+  
+  .photo-text-grid {
+    display: grid;
+     background-color: yellow;
+    grid-template-columns: auto auto;
+    grid-gap: 50px 20px;
+    padding: 50px 50px 50px 50px;
+     margin: 10px 10px 10px 10px;
+    text-align: center;
+  }
+  
+  ul.no-bullets {
+    color: crimson;
+    font-family: fantasy, serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    list-style-type: none;
+    padding: 20px 0px 100px 0px;
+    margin: 0;
+  }
+  
+  a:link {
+    color: black;
+    font-weight: bolder;
+  }
+  a:visited {
+    color: darkgoldenrod;
+  }
+  a:hover {
+    color: lightpink;
+  }
+  a:active {
+    color: bisque;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-weight: bolder;
+  }
+  
+  h1 {
+    color: #000000;
+    background-color: whitesmoke;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  h2 {
+    color: #000000;
+    font-size: 26px;
+    font-family: fantasy, serif;
+    font-weight: normal;
+  }
+  h3 {
+    color: charcoal;
+    font-size: 36px;
+    font-family: serif;
+    text-align: center;
+  }
+  
+  #quote {
+    color: #ff0080;
+    font-size: 24px;
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  #nav-set {
+    color: #556b2f;
+    font-size: 18px;
+    font-family: fantasy, serif;
+    font-style: bold;
+    text-align: right
+  }
+  
+  #footer-set {
+    color: thistle;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
